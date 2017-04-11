@@ -1,0 +1,7 @@
+lboro_custom.assign:
+  path: '/problems/{problem_id}/assign'
+  defaults:
+    _title: 'Assign Problem'
+    _form: '\Drupal\lboro_custom\Form\AssignProblemForm'
+  requirements:
+    _permission: 'access content'
